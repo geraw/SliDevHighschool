@@ -866,3 +866,48 @@ graph TB
 <div style="position: absolute; left: 40px; top: 270px; text-align: center;">
     <img src="/public/math-is-fun.webp" width="250">
 </div>
+
+
+---
+
+# הוכחת אפס מידע לחידת סודוקו
+
+<div style="display: flex; justify-content: space-around; align-items: center; text-align: center; width: 100%;">
+
+  <div v-click style="margin: 0 20px;">
+    <img src="/card1.png" style="height: 200px;">
+    <div style="margin-top: 0px;">קלף 1</div>
+  </div>
+
+  <div v-click style="margin: 0 20px;">
+    <img src="/card2.png" style="height: 200px;">
+    <div style="margin-top: 0px;">קלף 2</div>
+  </div>
+
+  <div v-click style="margin: 0 20px;">
+    <img src="/card3.png" style="height: 200px;">
+    <div style="margin-top: 0px;">קלף 3</div>
+  </div>
+
+</div>
+
+<div v-click style="margin-top: 50px; text-align: center;">
+  <h2>הקלפים מחולקים לשלושה חלקים ומפוזרים אנכית, אופקית ולמרכז של כל רביע</h2>
+</div>
+
+<div v-click style="display: flex; justify-content: space-around; align-items: center; text-align: center; width: 100%; margin-top: 50px;">
+  <div style="margin: 0 20px;">
+    <img src="/card1.png" style="height: 200px;">
+    <div style="margin-top: 0px;">אנכי</div>
+  </div>
+
+  <div style="margin: 0 20px;">
+    <img src="/card2.png" style="height: 200px;">
+    <div style="margin-top: 0px;">אופקי</div>
+  </div>
+
+  <div style="margin: 0 20px;">
+    <img src="/card3.png" style="height: 200px;">
+    <div style="margin-top: 0px;">מרכז</div>
+  </div>
+</div>
