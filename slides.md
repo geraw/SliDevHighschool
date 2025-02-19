@@ -34,7 +34,7 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
   <iframe
     width="660"  
     height="440"  
-    src="https://www.youtube.com/embed/3G1KBu6H6BM?si=QaHIR9SXLH5DZuCO"
+    src="https://www.youtube.com/embed/3G1KBu6H6BM?si=QaHIR9SXLH5DZuCO&rel=0"
     frameborder="0"  
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  
     allowfullscreen>
@@ -45,7 +45,7 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
   <iframe
     width="660"  
     height="440"  
-    src="https://www.youtube.com/embed/adPqagG1dc0"
+    src="https://www.youtube.com/embed/adPqagG1dc0?rel=0"
     frameborder="0"  
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  
     allowfullscreen>
@@ -56,7 +56,7 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
   <iframe
     width="660"  
     height="440"  
-    src="https://www.youtube.com/embed/3CR5y8qZf0Y?start=7"
+    src="https://www.youtube.com/embed/3CR5y8qZf0Y?start=7&rel=0"
     frameborder="0"  
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  
     allowfullscreen>
@@ -874,7 +874,7 @@ graph TB
 # הוכחת אפס מידע לחידת סודוקו
 
 <div style="position: absolute; left: 50%; top: 45%; transform: translate(-50%, -50%);">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/FfeXX6OLq8w?si=FE1ixnFy6EqWiIYE&amp;clip=UgkxNeeN3Ngg2GFTEXavx9nYkQnf5HHinvdA&amp;clipt=EITyBhirzQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FfeXX6OLq8w?si=FE1ixnFy6EqWiIYE&clip=UgkxNeeN3Ngg2GFTEXavx9nYkQnf5HHinvdA&clipt=EITyBhirzQg&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <div v-motion
@@ -890,5 +890,6 @@ graph TB
 
 
 <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FfeXX6OLq8w?si=ar12VxykopFDHcrU&amp;clip=UgkxIb59bI7mV-QV_nIHRG9ad5vePNLmgR9f&amp;clipt=EPi6CRjYjw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/FfeXX6OLq8w?si=ar12VxykopFDHcrU&amp;clip=UgkxIb59bI7mV-QV_nIHRG9ad5vePNLmgR9f&amp;clipt=EPi6CRjYjw0&amp;rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
