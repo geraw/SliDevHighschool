@@ -868,46 +868,27 @@ graph TB
 </div>
 
 
+
 ---
 
 # הוכחת אפס מידע לחידת סודוקו
 
-
-
-
-
-
-
-
-<!-- <div style="display: grid; grid-template-columns: repeat(9, 30px); grid-gap: 0px; width: 50%; margin: auto; left: 300px; top: 110px; position: absolute;">
-  <!-- Generate Sudoku cells with colored cards -->
-  <div v-for="i in 81" :key="i" style="position: relative; width: 45px; height: 25px; border: 1px solid black; scale:0.5">
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-      <div style="width: 15px; height: 15px; background-color: blue; margin: 2px;"></div>
-      <div style="width: 15px; height: 15px; background-color: yellow; margin: 2px;"></div>
-      <div style="width: 15px; height: 15px; background-color: red; margin: 2px;"></div>
-    </div>
-  </div>
+<div style="position: absolute; left: 50%; top: 45%; transform: translate(-50%, -50%);">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FfeXX6OLq8w?si=FE1ixnFy6EqWiIYE&amp;clip=UgkxNeeN3Ngg2GFTEXavx9nYkQnf5HHinvdA&amp;clipt=EITyBhirzQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-<div >
-  <!-- Add thick horizontal and vertical lines -->
-  <!-- <div style="position: absolute; top: 80px; left: 150px; width: 3px; height: 80%; background-color: black;"></div> -->
-  <!-- <div style="position: absolute; top: 0; left: 300px; width: 3px; height: 100%; background-color: black;"></div>
-  <div style="position: absolute; top: 150px; left: 0; width: 100%; height: 3px; background-color: black;"></div>
-  <div style="position: absolute; top: 300px; left: 0; width: 100%; height: 3px; background-color: black;"></div> -->
+<div v-motion
+  :initial="{ y: 50, opacity: 0 }"
+  :enter="{ y: 0, opacity: 1 }"
+  style="position: absolute; left: 20%; bottom: 30px; transform: translateX(-100px); font-size: 30px; text-align: center;"
+>
+  איך פגי תוכיח לויקטור שהיא יודעת איך לפתור חידת הסודוקו בלי לגלות לו מידע על הפתרון?
 </div>
+---
 
-<div v-click>
-  <div v-for="i in 9" :key="'row-' + i" style="position: absolute; top: calc(50px * (i - 1)); left: 460px; display: flex; flex-direction: column;">
-    <div v-for="j in 9" :key="'row-' + i + '-cell-' + j" style="width: 15px; height: 15px; background-color: blue; margin: 2px;"></div>
-  </div>
+# פתרון
 
-  <div v-for="i in 9" :key="'col-' + i" style="position: absolute; top: 460px; left: calc(50px * (i - 1)); display: flex; flex-direction: row;">
-    <div v-for="j in 9" :key="'col-' + i + '-cell-' + j" style="width: 15px; height: 15px; background-color: yellow; margin: 2px;"></div>
-  </div>
 
-  <div v-for="i in 3" :key="'quad-' + i" style="position: absolute; top: calc(150px * (i - 1) + 75px); left: calc(150px * (i - 1) + 75px); display: flex; flex-direction: column;">
-    <div v-for="j in 9" :key="'quad-' + i + '-cell-' + j" style="width: 15px; height: 15px; background-color: red; margin: 2px;"></div>
-  </div>
-</div> -->
+<div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FfeXX6OLq8w?si=ar12VxykopFDHcrU&amp;clip=UgkxIb59bI7mV-QV_nIHRG9ad5vePNLmgR9f&amp;clipt=EPi6CRjYjw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
