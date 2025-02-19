@@ -860,7 +860,7 @@ graph TB
 ## הכל בנוי על מתמטיקה שהתפתחה במשך שנים רבות
 
   #### אם אתם רוצים לעסוק במדע או הנדסה, אני מציע להתרכז במתמטיקה
-  #### זה נכון גם בתצחום התוכנה והאלקטרוניקה
+  #### זה נכון גם בתחום התוכנה והאלקטרוניקה
 
 
 <div style="position: absolute; left: 40px; top: 270px; text-align: center;">
@@ -872,42 +872,42 @@ graph TB
 
 # הוכחת אפס מידע לחידת סודוקו
 
-<div style="display: flex; justify-content: space-around; align-items: center; text-align: center; width: 100%;">
 
-  <div v-click style="margin: 0 20px;">
-    <img src="/card1.png" style="height: 200px;">
-    <div style="margin-top: 0px;">קלף 1</div>
-  </div>
 
-  <div v-click style="margin: 0 20px;">
-    <img src="/card2.png" style="height: 200px;">
-    <div style="margin-top: 0px;">קלף 2</div>
-  </div>
 
-  <div v-click style="margin: 0 20px;">
-    <img src="/card3.png" style="height: 200px;">
-    <div style="margin-top: 0px;">קלף 3</div>
-  </div>
 
-</div>
 
-<div v-click style="margin-top: 50px; text-align: center;">
-  <h2>הקלפים מחולקים לשלושה חלקים ומפוזרים אנכית, אופקית ולמרכז של כל רביע</h2>
-</div>
 
-<div v-click style="display: flex; justify-content: space-around; align-items: center; text-align: center; width: 100%; margin-top: 50px;">
-  <div style="margin: 0 20px;">
-    <img src="/card1.png" style="height: 200px;">
-    <div style="margin-top: 0px;">אנכי</div>
-  </div>
 
-  <div style="margin: 0 20px;">
-    <img src="/card2.png" style="height: 200px;">
-    <div style="margin-top: 0px;">אופקי</div>
-  </div>
-
-  <div style="margin: 0 20px;">
-    <img src="/card3.png" style="height: 200px;">
-    <div style="margin-top: 0px;">מרכז</div>
+<!-- <div style="display: grid; grid-template-columns: repeat(9, 30px); grid-gap: 0px; width: 50%; margin: auto; left: 300px; top: 110px; position: absolute;">
+  <!-- Generate Sudoku cells with colored cards -->
+  <div v-for="i in 81" :key="i" style="position: relative; width: 45px; height: 25px; border: 1px solid black; scale:0.5">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+      <div style="width: 15px; height: 15px; background-color: blue; margin: 2px;"></div>
+      <div style="width: 15px; height: 15px; background-color: yellow; margin: 2px;"></div>
+      <div style="width: 15px; height: 15px; background-color: red; margin: 2px;"></div>
+    </div>
   </div>
 </div>
+
+<div >
+  <!-- Add thick horizontal and vertical lines -->
+  <!-- <div style="position: absolute; top: 80px; left: 150px; width: 3px; height: 80%; background-color: black;"></div> -->
+  <!-- <div style="position: absolute; top: 0; left: 300px; width: 3px; height: 100%; background-color: black;"></div>
+  <div style="position: absolute; top: 150px; left: 0; width: 100%; height: 3px; background-color: black;"></div>
+  <div style="position: absolute; top: 300px; left: 0; width: 100%; height: 3px; background-color: black;"></div> -->
+</div>
+
+<div v-click>
+  <div v-for="i in 9" :key="'row-' + i" style="position: absolute; top: calc(50px * (i - 1)); left: 460px; display: flex; flex-direction: column;">
+    <div v-for="j in 9" :key="'row-' + i + '-cell-' + j" style="width: 15px; height: 15px; background-color: blue; margin: 2px;"></div>
+  </div>
+
+  <div v-for="i in 9" :key="'col-' + i" style="position: absolute; top: 460px; left: calc(50px * (i - 1)); display: flex; flex-direction: row;">
+    <div v-for="j in 9" :key="'col-' + i + '-cell-' + j" style="width: 15px; height: 15px; background-color: yellow; margin: 2px;"></div>
+  </div>
+
+  <div v-for="i in 3" :key="'quad-' + i" style="position: absolute; top: calc(150px * (i - 1) + 75px); left: calc(150px * (i - 1) + 75px); display: flex; flex-direction: column;">
+    <div v-for="j in 9" :key="'quad-' + i + '-cell-' + j" style="width: 15px; height: 15px; background-color: red; margin: 2px;"></div>
+  </div>
+</div> -->
