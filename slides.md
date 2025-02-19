@@ -30,31 +30,39 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 
 # האם זה רובוט?
 
-<div style="position: absolute; left: 50%; transform: translateX(-50%); top: 150px;">
+<div style="position: absolute; left: 50%; transform: translateX(-50%); top: 100px;">
   <iframe
-    width="560"  
-    height="315"  
-    src="https://www.youtube.com/embed/8OhjrUrtqeQ?list=PLca_yQ52rbX6jlOWZ22l2Jwtic2GWMNbx&start=21"  
+    width="660"  
+    height="440"  
+    src="https://www.youtube.com/embed/3G1KBu6H6BM?si=QaHIR9SXLH5DZuCO"
     frameborder="0"  
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  
     allowfullscreen>
   </iframe>
 </div>
 
----
-
-# האם זה רובוט?
-
-<div style="position: absolute; left: 50%; transform: translateX(-50%); top: 150px;">
+<div v-click="1" style="position: absolute; left: 50%; transform: translateX(-50%); top: 100px;">
   <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/3CR5y8qZf0Y?start=7"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    width="660"  
+    height="440"  
+    src="https://www.youtube.com/embed/adPqagG1dc0"
+    frameborder="0"  
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  
     allowfullscreen>
   </iframe>
 </div>
+
+<div v-click="2" style="position: absolute; left: 50%; transform: translateX(-50%); top: 100px;">
+  <iframe
+    width="660"  
+    height="440"  
+    src="https://www.youtube.com/embed/3CR5y8qZf0Y?start=7"
+    frameborder="0"  
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  
+    allowfullscreen>
+  </iframe>
+</div>
+
 
 ---
 
