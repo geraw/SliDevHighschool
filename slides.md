@@ -67,25 +67,44 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 ---
 
 # סיכום ביניים
-
 ## לא כל מה שנראה כמו רובוט הוא באמת כזה
 
-<div style="position: absolute; left: 20px; top: 120px; text-align: center;">
-  <img src="https://i5.walmartimages.com/asr/250f8986-ddce-49d1-8225-97780786e876.3508638f711964a10d66e872cbed5f44.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF" width="300">
-  <h2>מכונה המבצעת פעולה אחת</h2>
-  <h2 style="color: red;">אינה רובוט</h2>
+
+<br/>
+<br/>
+
+<div style="display: flex; justify-content: space-around; align-items: center; text-align: center; width: 100%;">
+
+  <div style="margin: 0 20px;">
+    <img src="https://superpharmstorage.blob.core.windows.net/hybris/products/desktop/medium/1270470415232.jpg" 
+         style="height: 200px;">
+    <div style="margin-top: 0px;">מכונה של פעולה אחת</div>
+    <div style="color: red;">אינה רובוט</div>
+  </div>
+
+  <div style="margin: 0 20px;">
+    <img src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3JhZGlvLWNvbnRyb2xsZWQtdG95LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODI4fSwidG9Gb3JtYXQiOiJhdmlmIn19" 
+        style="height: 200px;">
+    <div style="margin-top: 0px;">מכונה המופעלת בשלט רחוק</div>
+    <div style="color: red;">אינה רובוט</div>
+  </div>
+
+  <div style="margin: 0 20px;">
+    <img src="https://www.telegraph.co.uk/content/dam/tax/2019/01/18/TELEMMGLPICT000185682285_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQfyf2A9a6I9YchsjMeADBa08.jpeg" 
+    style="height: 200px;">
+    <div style="margin-top: 0px;">מכונה בצורת אדם</div>
+    <div style="color: red;">אינה בהכרח רובוט</div>
+  </div>
+
 </div>
 
-<div style="position: absolute; left: 390px; top: 180px; text-align: center;'">
-  <img src="https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3JhZGlvLWNvbnRyb2xsZWQtdG95LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODI4fSwidG9Gb3JtYXQiOiJhdmlmIn19"  width="300" >
-  <h2>מכונה המופעלת בשלט רחוק</h2>
-  <h2 style="color: red;">אינה רובוט</h2>
-</div>
 
-<div style="position: absolute; left: 760px; top: 180px; text-align: center;'">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Valkyrie-robot-3.jpg/800px-Valkyrie-robot-3.jpg" width="200" >
-  <h2>מכונה בצורת אדם</h2>
-  <h2 style="color: red;">אינה בהכרח רובוט</h2>
+<div v-motion v-click
+  :initial="{ y: 50, opacity: 0 }"
+  :enter="{ y: 0, opacity: 1 }"
+  style="position: absolute; left: 28%; bottom: 70px; transform: translateX(-50%); font-size: 23px; text-align: center;"
+>
+  רובוט הוא מכונה המתאימה את עצמה לסביבה
 </div>
 
 ---
@@ -113,10 +132,10 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 </div>
 
 <div style="position: absolute; left: 390px; top: 200px; text-align: center;">
-  <v-click>
+  <div v-click v-motion  :initial="{ y: 50, opacity: 0 }"  :enter="{ y: 0, opacity: 1 }">
     <img src="/flying-robots.webp" width="250">
     <h2>רעיונות נוספים?</h2>
-  </v-click>
+  </div>
 </div>
 
 ---
@@ -232,7 +251,6 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 <div v-click>
 <div style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);">
 <div class="sketchfab-embed-wrapper"> <iframe title="flying-drone" 
-width="640" height="200"  
 frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/671aa2d9139040d5995896f33a9d7a3a/embed?autospin=1&autostart=1&preload=1&transparent=1&ui_hint=0"> </iframe> </div>
 </div>
 
