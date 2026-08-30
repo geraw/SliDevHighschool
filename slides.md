@@ -5,7 +5,6 @@ author: "גרא וייס" # shows in infoLine
 htmlAttrs:
   dir: rtl
   lang: heb
-mdc: true
 download: true
 
 layout: intro-image
@@ -16,7 +15,7 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 <div class="absolute left-10 " style="text-align: center;">
   <span class="font-700">
     גרא וייס<br>
-    המחלקה למדעי המחשב <br>
+    הפקולטה למדעי המחשב והמידע <br>
     אוניברסיטת בן גוריון
   </span>
 </div>
@@ -395,12 +394,14 @@ allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="au
 
 <div style="position: absolute; left: 70%; top: 50%; transform: translate(-50%, -50%) scale(1.7);">
 
-  $$ \begin{aligned}
+  $$
+  \begin{aligned}
     v_1 + v_2 - (v_3 + v_4) &= \text{נטיה קדימה} \\
     v_2 + v_3 - (v_1 + v_4) &= \text{נטיה ימינה} \\
     v_1 + v_3 - (v_2 + v_4) &= \text{סבסוב} \\
     v_1 + v_2 + \phantom{(}v_3 + v_4\phantom{)} &= \text{עליה למעלה}
-  \end{aligned} $$
+  \end{aligned}
+  $$
 </div>
 
 ---
@@ -409,12 +410,14 @@ allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="au
 
 <div style="position: absolute; left: 70%; top: 50%; transform: translate(-50%, -50%) scale(1.7);">
 
-  $$ \begin{aligned}
+  $$
+  \begin{aligned}
     v_1 + v_2 - (v_3 + v_4) &= -1 \\
     v_2 + v_3 - (v_1 + v_4) &= 2  \\
     v_1 + v_3 - (v_2 + v_4) &= 1 \\
     v_1 + v_2 + \phantom{(}v_3 + v_4\phantom{)} &= -3
-  \end{aligned} $$
+  \end{aligned}
+  $$
 </div>
 
 <div style="position: absolute; left: 20%; top: 50%; transform: translate(-50%, -50%);">
@@ -466,10 +469,12 @@ $1$
 
 <div style="position: absolute; left: 25%; top: 50%; transform: translate(-50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 5px 10px;">
 
-  $$\begin{aligned}v_1 + v_2 - (v_3 + v_4) &= -1 \\
+  $$
+  \begin{aligned}v_1 + v_2 - (v_3 + v_4) &= -1 \\
   v_2 + v_3 - (v_1 + v_4) &= 2  \\
   v_1 + v_3 - (v_2 + v_4) &= 1 \\
-  v_1 + v_2 + \phantom{(}v_3 + v_4\phantom{)} &= -3\end{aligned}$$
+  v_1 + v_2 + \phantom{(}v_3 + v_4\phantom{)} &= -3\end{aligned}
+  $$
 </div>
 
 <div v-motion
@@ -487,12 +492,14 @@ $1$
 
   <div style="position: absolute; right: -400px; top: 190px; transform: translate(50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 5px 10px;">
 
-  $$\begin{aligned}
+  $$
+  \begin{aligned}
         v_1 + v_2 - v_3 - v_4 &= -1 \\
         -v_1 + v_2 + v_3 - v_4 &= 2  \\
         v_1 - v_2 + v_3 - v_4 &= 1 \\
         v_1 + v_2 + v_3 + v_4 &= -3
-    \end{aligned}$$
+    \end{aligned}
+    $$
   </div>
 </div>
 
@@ -503,12 +510,14 @@ $1$
 
 <div style="position: absolute; left: 20%; top: 160px; transform: translate(-50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 5px 10px;">
 
-  $$\begin{aligned}
+  $$
+  \begin{aligned}
         v_1 + v_2 - v_3 - v_4 &= -1 \\
         -v_1 + v_2 + v_3 - v_4 &= 2  \\
         v_1 - v_2 + v_3 - v_4 &= 1 \\
         v_1 + v_2 + v_3 + v_4 &= -3
-  \end{aligned}$$
+  \end{aligned}
+  $$
 </div>
 
 <div v-motion
@@ -526,12 +535,14 @@ $1$
 
   <div style="position: absolute; right: -730px; top: 290px; transform: translate(-50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 5px 10px;">
   
-  $$\begin{aligned}
+  $$
+  \begin{aligned}
   &\text{\tiny שורה 1} && 1v_1 + 1v_2 - 1v_3 - 1v_4 = -1 \\
   &\text{\tiny שורה 1 + שורה 2} && \color{blue}{0v_1 + 2v_2 + 0v_3 - 2v_4 = 1} \\
   &\text{\tiny שורה 1 - שורה 3} && \color{blue}{0v_1  - 2v_2 + 2v_3 + 0v_1 = 2} \\
   &\text{\tiny שורה 1 - שורה 4} && \color{blue}{0v_1 + 0v_2 + 2v_3 + 2v_4 = -2}
-  \end{aligned}$$
+  \end{aligned}
+  $$
   </div>
 </div>
 
@@ -541,12 +552,14 @@ $1$
 
 <div style="position: absolute; left: 21%; top: 160px; transform: translate(-50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 1px 4px;">
 
-  $$\begin{aligned}
+  $$
+  \begin{aligned}
         1v_1 + 1v_2 - 1v_3 - 1v_4 &= -1 \\
         0v_1 + 2v_2 + 0v_3 - 2v_4 &= 1  \\
         0v_1 - 2v_2 + 2v_3 + 0v_4 &= 2 \\
         0v_1 + 0v_2 + 2v_3 + 2v_4 &= -2
-  \end{aligned}$$
+  \end{aligned}
+  $$
 </div>
 
 <div v-motion
@@ -564,12 +577,14 @@ $1$
 
   <div style="position: absolute; right: -730px; top: 290px; transform: translate(-50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 5px 10px;">
   
-  $$\begin{aligned}
+  $$
+  \begin{aligned}
   &\text{\tiny שורה 1}             &&             {1v_1 + 1v_2 - 1v_3 - 1v_4 = -1 } \\
   &\text{\tiny  שורה 2 כפול 1/2  } && \color{blue}{0v_1 + 1v_2 + 0v_3 - 1v_4 = 1/2} \\
   &\text{\tiny  שורה 3 כפול 1/2  } && \color{blue}{0v_1  - 1v_2 + 1v_3 + 0v_1 = 1} \\
   &\text{\tiny  שורה 4 כפול 1/2  } && \color{blue}{0v_1 + 0v_2 + 1v_3 + 1v_4 = -1}
-  \end{aligned}$$
+  \end{aligned}
+  $$
   </div>
 </div>
 
@@ -580,12 +595,14 @@ $1$
 
 <div style="position: absolute; left: 21%; top: 160px; transform: translate(-50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 1px 4px;">
 
-  $$\begin{aligned}
+  $$
+  \begin{aligned}
     &{1v_1 + 1v_2 - 1v_3 - 1v_4 = -1 } \\
     &{0v_1 + 1v_2 + 0v_3 - 1v_4 = 1/2} \\
     &{0v_1  - 1v_2 + 1v_3 + 0v_1 = 1} \\
     &{0v_1 + 0v_2 + 1v_3 + 1v_4 = -1}
-  \end{aligned}$$  
+  \end{aligned}
+  $$
 </div>
 
 
@@ -605,12 +622,14 @@ $1$
 
   <div style="position: absolute; right: -740px; top: 300px; transform: translate(-50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 5px 10px;">
   
-  $$\begin{aligned}
+  $$
+  \begin{aligned}
   &\text{\tiny שורה 2 - שורה 1}     && \color{blue}{1v_1 + 0v_2 - 1v_3 + 0v_4 = -3/2} \\
   &\text{\tiny שורה 2}              &&             {0v_1 + 1v_2 + 0v_3 - 1v_4 = 1/2} \\
   &\text{\tiny שורה 2 + שורה 3  }   && \color{blue}{0v_1 + 0v_2 + 1v_3 - 1v_1 = 3/2} \\
   &\text{\tiny שורה 4 }             &&             {0v_1 + 0v_2 + 1v_3 + 1v_4 = -1}
-  \end{aligned}$$
+  \end{aligned}
+  $$
   </div>
 </div>
 
@@ -621,12 +640,14 @@ $1$
 
 <div style="position: absolute; left: 22%; top: 160px; transform: translate(-50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 1px 4px;">
 
-  $$\begin{aligned}
+  $$
+  \begin{aligned}
     &{1v_1 + 0v_2 - 1v_3 + 0v_4 = -3/2} \\
     &{0v_1 + 1v_2 + 0v_3 - 1v_4 = 1/2} \\
     &{0v_1 + 0v_2 + 1v_3 - 1v_1 = 3/2} \\
     &{0v_1 + 0v_2 + 1v_3 + 1v_4 = -1}
-  \end{aligned}$$  
+  \end{aligned}
+  $$
 </div>
 
 
@@ -646,12 +667,14 @@ $1$
 
   <div style="position: absolute; right: -730px; top: 290px; transform: translate(-50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 5px 10px;">
   
-  $$\begin{aligned}
+  $$
+  \begin{aligned}
   &\text{\tiny שורה 3 + שורה 1}     && \color{blue}{1v_1 + 0v_2 - 0v_3 - 1v_4 = 0} \\
   &\text{\tiny שורה 2}              &&             {0v_1 + 1v_2 + 0v_3 - 1v_4 = 1/2} \\
   &\text{\tiny שורה 3  }            &&             {0v_1 + 0v_2 + 1v_3 - 1v_1 = 3/2} \\
   &\text{\tiny שורה 3 - שורה 4 }    && \color{blue}{0v_1 + 0v_2 + 0v_3 + 2v_4 = -5/2}
-  \end{aligned}$$
+  \end{aligned}
+  $$
   </div>
 </div>
 
@@ -661,12 +684,14 @@ $1$
 
 <div style="position: absolute; left: 22%; top: 160px; transform: translate(-50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 1px 4px;">
 
-  $$\begin{aligned}
+  $$
+  \begin{aligned}
     &{1v_1 + 0v_2 - 0v_3 - 1v_4 = 0} \\
     &{0v_1 + 1v_2 + 0v_3 - 1v_4 = 1/2} \\
     &{0v_1 + 0v_2 + 1v_3 - 1v_1 = 3/2} \\
     &{0v_1 + 0v_2 + 0v_3 + 2v_4 = -5/2}
-  \end{aligned}$$  
+  \end{aligned}
+  $$
 </div>
 
 
@@ -686,12 +711,14 @@ $1$
 
   <div style="position: absolute; right: -730px; top: 290px; transform: translate(-50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 5px 10px;">
   
-  $$\begin{aligned}
+  $$
+  \begin{aligned}
   &\text{\tiny  שורה 1}     &&                      {1v_1 + 0v_2 - 0v_3 - 1v_4 = 0} \\
   &\text{\tiny שורה 2}              &&              {0v_1 + 1v_2 + 0v_3 - 1v_4 = 1/2} \\
   &\text{\tiny שורה 3  }            &&              {0v_1 + 0v_2 + 1v_3 - 1v_1 = 3/2} \\
   &\text{\tiny  שורה 4 כפול 1/2 }   && \color{blue} {0v_1 + 0v_2 + 0v_3 + 1v_4 = -5/4}
-  \end{aligned}$$
+  \end{aligned}
+  $$
   </div>
 
   
@@ -704,12 +731,14 @@ $1$
 
 <div style="position: absolute; left: 22%; top: 160px; transform: translate(-50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 1px 4px;">
 
-  $$\begin{aligned}
+  $$
+  \begin{aligned}
     &{1v_1 + 0v_2 - 0v_3 - 1v_4 = 0} \\
     &{0v_1 + 1v_2 + 0v_3 - 1v_4 = 1/2} \\
     &{0v_1 + 0v_2 + 1v_3 - 1v_1 = 3/2} \\
     &{0v_1 + 0v_2 + 0v_3 + 1v_4 = -5/4}
-  \end{aligned}$$  
+  \end{aligned}
+  $$
 </div>
 
 
@@ -729,12 +758,14 @@ $1$
 
   <div style="position: absolute; right: -740px; top: 290px; transform: translate(-50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 5px 10px;">
   
-  $$\begin{aligned}
+  $$
+  \begin{aligned}
   &\text{\tiny  שורה 4 + שורה 1}             && \color{blue} {1v_1 + 0v_2 - 0v_3 + 0 v_4 = -5/4} \\
   &\text{\tiny  שורה 4 + שורה 2}              && \color{blue} {0v_1 + 1v_2 + 0v_3+ 0 v_4 = -3/4} \\
   &\text{\tiny שורה 4 + שורה 3  }            && \color{blue} {0v_1 + 0v_2 + 1v_3 + 0 v_1 =  1/4} \\
   &\text{\tiny  שורה 4  }                     &&              {0v_1 + 0v_2 + 0v_3 + 1v_4 = -5/4}
-  \end{aligned}$$
+  \end{aligned}
+  $$
   </div>
 </div>
 
@@ -774,7 +805,7 @@ graph TB
 <div>
   <div v-click>
     <h2 style="width: 250px">תשעת הפרקים של אמנות המתמטיקה</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93%E7%B4%B0%E8%8D%89%E5%9C%96%E8%AA%AA.jpg/220px-%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93%E7%B4%B0%E8%8D%89%E5%9C%96%E8%AA%AA.jpg" style="width: 250px; height: 300px">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/%E4%B9%9D%E7%AB%A0%E7%AE%97%E8%A1%93%E7%B4%B0%E8%8D%89%E5%9C%96%E8%AA%AA.jpg" style="width: 250px; height: 300px">
     <p style="text-align: center; width:250px">כתב סיני עתיק בן 2000 שנה!</p>
   </div>
 </div>
@@ -790,7 +821,7 @@ graph TB
 <div>
   <div v-click>
     <h2 style="text-align: center;">מחשב  <br> ARM Cortex-M3</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/STM32F100C4T6B-HD.jpg/220px-STM32F100C4T6B-HD.jpg" style="width: 250px; height: 300px">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/STM32F100C4T6B-HD.jpg" style="width: 250px; height: 300px">
     <p style="text-align: center; width:250px"> 24 מיליון פעולות חשבון בשנייה</p>
   </div>
 </div>
