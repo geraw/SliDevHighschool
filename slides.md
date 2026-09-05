@@ -51,17 +51,6 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
   </iframe>
 </div>
 
-<div v-click="2" style="position: absolute; left: 50%; transform: translateX(-50%); top: 100px;">
-  <iframe
-    width="660"  
-    height="440"  
-    src="https://www.youtube.com/embed/3CR5y8qZf0Y?start=7&rel=0"
-    frameborder="0"  
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  
-    allowfullscreen>
-  </iframe>
-</div>
-
 
 ---
 
@@ -77,6 +66,21 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
     <h2>אבל האם זה מספיק כדי לקרוא לו "רובוט"?</h2>
   </div>
 
+</div>
+
+---
+
+# רובוט משחק טניס
+
+<div style="position: absolute; left: 50%; transform: translateX(-50%); top: 100px;">
+  <iframe
+    width="660"
+    height="440"
+    src="https://www.youtube.com/embed/3CR5y8qZf0Y?start=7&rel=0"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
 </div>
 
 ---
