@@ -65,6 +65,22 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 
 ---
 
+# האם מה שראינו בסרטון הוא בכלל רובוט? 🤔
+
+<div class="flex flex-col items-center justify-center h-full" style="direction: rtl; text-align: center;">
+
+  <div v-click>
+    <h2>הרחפן טס, מתאזן ומגיב לפקודות שלט...</h2>
+  </div>
+
+  <div v-click class="mt-8">
+    <h2>אבל האם זה מספיק כדי לקרוא לו "רובוט"?</h2>
+  </div>
+
+</div>
+
+---
+
 # סיכום ביניים
 ## לא כל מה שנראה כמו רובוט הוא באמת כזה
 
