@@ -12,6 +12,9 @@
     "@slidev/theme-apple-basic": "^0.25.1"
   },
   "devDependencies": {
-    "playwright-chromium": "^1.62.1"
+    "playwright-chromium": "^1.63.0"
+  },
+  "allowScripts": {
+    "playwright-chromium@1.63.0": true
   }
 }
