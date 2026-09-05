@@ -29,9 +29,9 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 
 # מופע דרקון מרחף
 
-<div class="flex items-center justify-center gap-5" style="direction: rtl; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%;">
+<div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
 
-  <video src="/dragon-drone-show.mp4" autoplay loop muted playsinline style="width: 900px; border-radius: 12px;"></video>
+  <video src="/dragon-drone-show.mp4" autoplay loop muted playsinline style="width: 560px; border-radius: 12px;"></video>
 
   <div style="text-align: right; max-width: 360px;" class="text-xl leading-relaxed space-y-14">
     <p>מופע שנערך בסין לרגל תחילת שנת הדרקון</p>
