@@ -58,6 +58,24 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 
 ---
 
+# מערך של 10,000 רחפנים
+
+<div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
+
+  <div style="text-align: right; max-width: 480px;" class="text-base leading-snug space-y-3">
+    <p v-click>מדובר במטס של 10,000 רחפנים הטסים בתיאום מושלם</p>
+    <p v-click>בתחילת המופע מסדרים את הרחפנים ברחבה ונותנים להם פקודות להמראה מדורגת כדי שלא יתנגשו</p>
+    <p v-click>כל רחפן הוא רובוט עצמאי המכיל מחשב המקבל פקודות מתחנת הקרקע ושולט בארבעת המדחפים</p>
+    <p v-click>יש לו אנטנה, סוללה, ופנס שניתן להדליק בכל צבע שרוצים או לכבות לגמרי</p>
+    <p v-click>המחשב מודד את נטיית הרחפן בדיוק רב ושולט במהירות המנועים ברמה המאפשרת לתקן בזמן אמת כל נטייה</p>
+  </div>
+
+  <video src="/drone-array.mp4" autoplay loop muted playsinline style="width: 420px; border-radius: 12px;"></video>
+
+</div>
+
+---
+
 # האם מה שראינו בסרטון הוא בכלל רובוט? 🤔
 
 <div class="flex flex-col items-center justify-center h-full" style="direction: rtl; text-align: center;">
