@@ -27,20 +27,24 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 
 ---
 
+# מופע דרקון מרחף
+
+<div class="flex items-center justify-center h-full gap-10" style="direction: rtl;">
+
+  <video src="/dragon-drone-show.mp4" autoplay loop muted playsinline style="width: 900px; border-radius: 12px;"></video>
+
+  <div style="text-align: right; max-width: 360px;" class="text-xl leading-relaxed">
+    <p>מופע שנערך בסין לרגל תחילת שנת הדרקון</p>
+    <p v-click>ננסה להיכנס קצת לפרטי הטכנולוגיה המאפשרת את זה</p>
+  </div>
+
+</div>
+
+---
+
 # רובוטים מעופפים
 
 <div style="position: absolute; left: 50%; transform: translateX(-50%); top: 100px;">
-  <iframe
-    width="660"  
-    height="440"  
-    src="https://www.youtube.com/embed/3G1KBu6H6BM?si=QaHIR9SXLH5DZuCO&rel=0"
-    frameborder="0"  
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  
-    allowfullscreen>
-  </iframe>
-</div>
-
-<div v-click="1" style="position: absolute; left: 50%; transform: translateX(-50%); top: 100px;">
   <iframe
     width="660"  
     height="440"  
