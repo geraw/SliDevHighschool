@@ -76,6 +76,67 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 
 ---
 
+# קודם צריך לייצר 10,000 רחפנים
+
+<div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
+
+  <div style="text-align: right; max-width: 380px;" class="text-xl leading-relaxed space-y-4">
+    <p>כדי לטוס עם 10,000 רחפנים, קודם צריך לייצר ולהרכיב 10,000 רחפנים</p>
+    <p v-click>כל אחד מהם עובר בדיקה ונטען לפני שהוא יוצא למופע</p>
+  </div>
+
+  <video src="/drone-warehouse.mp4" autoplay loop muted playsinline style="width: 560px; border-radius: 12px;"></video>
+
+</div>
+
+---
+
+# מה יש בתוך כל רחפן?
+
+<div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
+
+  <div style="text-align: right; max-width: 380px;" class="text-xl leading-relaxed space-y-4">
+    <p>זהו המחשב שבתוך כל רחפן</p>
+    <p v-click>שני המחברים הזהובים הם לאנטנה, שמקבלת פקודות מתחנת הקרקע</p>
+  </div>
+
+  <video src="/drone-pcb.mp4" autoplay loop muted playsinline style="width: 480px; border-radius: 12px;"></video>
+
+</div>
+
+---
+
+# כל החלקים במקום אחד
+
+<div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
+
+  <div style="text-align: right; max-width: 380px;" class="text-xl leading-relaxed space-y-4">
+    <p>מבט מלמעלה על רחפן מורכב: המחשב והאנטנה במרכז</p>
+    <p v-click>ארבע זרועות עם מנוע ומדחף בקצה כל אחת</p>
+    <p v-click>ולמטה, המחבר הצהוב לסוללה</p>
+  </div>
+
+  <video src="/drone-anatomy.mp4" autoplay loop muted playsinline style="width: 480px; border-radius: 12px;"></video>
+
+</div>
+
+---
+
+# תכנון מראש בתוכנת מחשב
+
+<div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
+
+  <div style="text-align: right; max-width: 380px;" class="text-xl leading-relaxed space-y-4">
+    <p>לפני שהרחפנים ממריאים, מתכננים בתוכנת מחשב בדיוק מה כל רחפן צריך לעשות</p>
+    <p v-click>כאן, למשל, מתכננים את הצורה של הספרות 2025 לקראת השנה החדשה</p>
+  </div>
+
+  <video src="/drone-sim-2025.mp4" autoplay loop muted playsinline style="width: 480px; border-radius: 12px;"></video>
+
+</div>
+
+---
+
 # האם מה שראינו בסרטון הוא בכלל רובוט? 🤔
 
 <div class="flex flex-col items-center justify-center h-full" style="direction: rtl; text-align: center;">
