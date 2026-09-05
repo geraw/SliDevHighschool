@@ -60,17 +60,17 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 
   <div v-click="1">
     <h2>עמדה א׳: זה בכלל לא רובוט</h2>
-    <ul class="list-none">
-      <li v-click="2">🙅 "הכל מתוכנת מראש - זו כוריאוגרפיה קבועה"</li>
-      <li v-click="3">🙅 "הרחפן לא מגיב אלינו, לקהל שצופה בו"</li>
-      <li v-click="4">🙅 "בכל פעם שמפעילים את המופע רואים בדיוק את אותו הדבר"</li>
-      <li v-click="5">🙅 "מישהו רק לוחץ 'הפעל' - זה כמו סרטון מוקלט"</li>
+    <ul class="list-none space-y-6 mt-6 text-xl leading-relaxed">
+      <li v-click="2">🤨 "הכל מתוכנת מראש - זו כוריאוגרפיה קבועה"</li>
+      <li v-click="3">😐 "הרחפן לא מגיב אלינו, לקהל שצופה בו"</li>
+      <li v-click="4">🔁 "בכל פעם שמפעילים את המופע רואים בדיוק את אותו הדבר"</li>
+      <li v-click="5">📼 "מישהו רק לוחץ 'הפעל' - זה כמו סרטון מוקלט"</li>
     </ul>
   </div>
 
-  <div v-click="6" class="mt-8">
+  <div v-click="6" class="mt-12">
     <h2>עמדה ב׳: אבל בכל זאת יש כאן תגובתיות!</h2>
-    <ul class="list-none">
+    <ul class="list-none space-y-6 mt-6 text-xl leading-relaxed">
       <li v-click="7">💨 אם תבוא רוח, הרחפן יתקן את עצמו כדי להישאר יציב</li>
       <li v-click="8">🔋 אם הסוללה תיחלש, המערכת תזהה זאת ותגיב בהתאם</li>
     </ul>
