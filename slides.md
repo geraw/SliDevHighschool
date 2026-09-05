@@ -29,15 +29,15 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 
 # מופע דרקון מרחף
 
-<div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
+<div class="flex items-center justify-center gap-8" style="direction: rtl; transform: translate(2%, 12%);">
 
-  <video src="/dragon-drone-show.mp4" autoplay loop muted playsinline style="width: 560px; border-radius: 12px;"></video>
 
   <div style="text-align: right; max-width: 360px;" class="text-xl leading-relaxed space-y-14">
     <p>מופע שנערך בסין לרגל תחילת שנת הדרקון</p>
     <p>ננסה להיכנס קצת לפרטי הטכנולוגיה המאפשרת את זה</p>
   </div>
 
+  <video src="/dragon-drone-show.mp4" autoplay loop muted playsinline style="width: 1000px; border-radius: 12px;"></video>
 </div>
 
 ---
