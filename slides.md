@@ -649,29 +649,42 @@ $1$
   $$
 </div>
 
-<div v-motion
-  :initial="{ x: -20, opacity: 0 }"
-  :enter="{ x: 0, opacity: 1 }"
-  style="position: absolute; left: 47.5%; top: 47.5%; transform: translate(-50%, -50%); font-size: 60px;">
+<div v-click="1" style="position: absolute; left: 47.5%; top: 47.5%; transform: translate(-50%, -50%); font-size: 60px;">
 
   ➭
 </div>
 
 
-<div v-motion
+<div v-click="1" v-motion
   :initial="{ x: 600, opacity: 0 }"
-  :enter="{ x: -600, opacity: 1 }" >
+  :enter="{ x: -600, opacity: 1 }">
 
-  <div style="position: absolute; right: -400px; top: 190px; transform: translate(50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 5px 10px;">
+  <div style="position: absolute; right: -400px; top: 190px; transform: translate(50%, -50%) scale(1.5); width: 320px;">
+
+  <div style="background-color:rgb(241, 241, 221); padding: 5px 10px;">
 
   $$
   \begin{aligned}
-        v_1 + v_2 - v_3 - v_4 &= -1 \\
-        -v_1 + v_2 + v_3 - v_4 &= 2  \\
-        v_1 - v_2 + v_3 - v_4 &= 1 \\
-        v_1 + v_2 + v_3 + v_4 &= -3
-    \end{aligned}
-    $$
+  v_1 + v_2 - v_3 - v_4 &= -1 \\
+  v_2 + v_3 - v_1 - v_4 &= 2  \\
+  v_1 + v_3 - v_2 - v_4 &= 1 \\
+  v_1 + v_2 + v_3 + v_4 &= -3
+  \end{aligned}
+  $$
+  </div>
+
+  <div v-click="2" style="position: absolute; inset: 0; background-color:rgb(241, 241, 221); padding: 5px 10px;">
+
+  $$
+  \begin{aligned}
+  v_1 + v_2 - v_3 - v_4 &= -1 \\
+  -v_1 + v_2 + v_3 - v_4 &= 2  \\
+  v_1 - v_2 + v_3 - v_4 &= 1 \\
+  v_1 + v_2 + v_3 + v_4 &= -3
+  \end{aligned}
+  $$
+  </div>
+
   </div>
 </div>
 
