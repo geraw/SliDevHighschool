@@ -64,6 +64,7 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 
   <div style="text-align: right; max-width: 480px;" class="text-base leading-snug space-y-3">
     <p v-click>מדובר במטס של 10,000 רחפנים הטסים בתיאום מושלם</p>
+    <p v-click>כל נקודת אור שאתם רואים היא למעשה טיסן עצמאי, הטס במסלול מתוכנן מראש ומדליק את האורות שלו לאורך המופע</p>
     <p v-click>בתחילת המופע מסדרים את הרחפנים ברחבה ונותנים להם פקודות להמראה מדורגת כדי שלא יתנגשו</p>
     <p v-click>כל רחפן הוא רובוט עצמאי המכיל מחשב המקבל פקודות מתחנת הקרקע ושולט בארבעת המדחפים</p>
     <p v-click>יש לו אנטנה, סוללה, ופנס שניתן להדליק בכל צבע שרוצים או לכבות לגמרי</p>
@@ -76,16 +77,59 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 
 ---
 
-# קודם צריך לייצר 10,000 רחפנים
+# תהליך הייצור
 
 <div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
 
-  <div style="text-align: right; max-width: 380px;" class="text-xl leading-relaxed space-y-4">
+  <div style="text-align: right; width: 800px;" class="text-xl leading-relaxed space-y-4">
     <p>כדי לטוס עם 10,000 רחפנים, קודם צריך לייצר ולהרכיב 10,000 רחפנים</p>
     <p v-click>כל אחד מהם עובר בדיקה ונטען לפני שהוא יוצא למופע</p>
   </div>
 
-  <video src="/drone-warehouse.mp4" autoplay loop muted playsinline style="width: 560px; border-radius: 12px;"></video>
+  <video src="/drone-warehouse.mp4" autoplay loop muted playsinline style="width: 2000px; border-radius: 12px;"></video>
+
+</div>
+
+---
+
+# מרכיבים כל רחפן ביד
+
+<div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
+
+  <div style="text-align: right; width: 800px;" class="text-xl leading-relaxed space-y-4">
+    <p>בעמדת עבודה, מרכיבים ידנית את הזרועות, המנועים והלוח האלקטרוני של כל רחפן</p>
+  </div>
+
+  <video src="/drone-workbench.mp4" autoplay loop muted playsinline style="width: 2000px; border-radius: 12px;"></video>
+
+</div>
+
+---
+
+# סוגרים את המעטפת
+
+<div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
+
+  <div style="text-align: right; width: 800px;" class="text-xl leading-relaxed space-y-4">
+    <p>מרכיבים ומברגים את המעטפת החיצונית מעל הלוח האלקטרוני, כדי להגן עליו</p>
+  </div>
+
+  <video src="/drone-shell.mp4" autoplay loop muted playsinline style="width: 2000px; border-radius: 12px;"></video>
+
+</div>
+
+---
+
+# ולבסוף, המדחפים
+
+<div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
+
+  <div style="text-align: right; width: 800px;" class="text-xl leading-relaxed space-y-4">
+    <p>מתקינים את ארבעת המדחפים על המנועים</p>
+    <p v-click>וכעת הרחפן מוכן להצטרף למערך של ה-10,000</p>
+  </div>
+
+  <video src="/drone-propeller.mp4" autoplay loop muted playsinline style="width: 2000px; border-radius: 12px;"></video>
 
 </div>
 
