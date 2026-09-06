@@ -178,12 +178,19 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 
 <div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
 
-  <div style="text-align: right; max-width: 380px;" class="text-xl leading-relaxed space-y-4">
-    <p>לפני שהרחפנים ממריאים, מתכננים בתוכנת מחשב בדיוק מה כל רחפן צריך לעשות</p>
+  <div style="text-align: right; width: 800px;" class="text-xl leading-relaxed space-y-4">
+    <p>לפני שהרחפנים ממריאים, מתחילים מסקיצה ביד של הצורה הרצויה</p>
+    <p v-click>הצוות בסטודיו התכנון בסיאול הופך את הסקיצה לתוכנית תלת-ממדית מדויקת</p>
+    <p v-click>כל נקודת אור בתכנון מייצגת רחפן בודד, וממוקמת בנפרד על פני הדגם</p>
     <p v-click>כאן, למשל, מתכננים את הצורה של הספרות 2025 לקראת השנה החדשה</p>
   </div>
 
-  <video src="/drone-sim-2025.mp4" autoplay loop muted playsinline style="width: 480px; border-radius: 12px;"></video>
+  <div style="position: relative;">
+    <video src="/drone-sketch.mp4" autoplay loop muted playsinline style="display: block; width: 2000px; border-radius: 12px;"></video>
+    <video v-click="1" src="/drone-office.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"></video>
+    <video v-click="2" src="/drone-dotcount.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"></video>
+    <video v-click="3" src="/drone-sim-2025.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"></video>
+  </div>
 
 </div>
 
