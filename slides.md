@@ -766,16 +766,56 @@ $1$
   :initial="{ x: 600, opacity: 0 }"
   :enter="{ x: -600, opacity: 1 }" >
 
-  <div style="position: absolute; right: -730px; top: 290px; transform: translate(-50%, -50%) scale(1.5); background-color:rgb(241, 241, 221); padding: 5px 10px;">
-  
+  <div style="position: relative; right: -730px; top: 290px; transform: translate(-50%, -50%) scale(1.5); width: 460px;">
+
+  <div style="background-color:rgb(241, 241, 221); padding: 5px 10px;">
+
+  $$
+  \begin{aligned}
+  &\text{\tiny שורה 1} && 1v_1 + 1v_2 - 1v_3 - 1v_4 = -1 \\
+  &\phantom{\text{\tiny שורה 1 + שורה 2}} && \phantom{0v_1 + 2v_2 + 0v_3 - 2v_4 = 1} \\
+  &\phantom{\text{\tiny שורה 1 - שורה 3}} && \phantom{0v_1 - 2v_2 + 2v_3 + 0v_1 = 2} \\
+  &\phantom{\text{\tiny שורה 1 - שורה 4}} && \phantom{0v_1 + 0v_2 + 2v_3 + 2v_4 = -2}
+  \end{aligned}
+  $$
+  </div>
+
+  <div v-click="1" style="position: absolute; inset: 0; background-color:rgb(241, 241, 221); padding: 5px 10px;">
+
   $$
   \begin{aligned}
   &\text{\tiny שורה 1} && 1v_1 + 1v_2 - 1v_3 - 1v_4 = -1 \\
   &\text{\tiny שורה 1 + שורה 2} && \color{blue}{0v_1 + 2v_2 + 0v_3 - 2v_4 = 1} \\
-  &\text{\tiny שורה 1 - שורה 3} && \color{blue}{0v_1  - 2v_2 + 2v_3 + 0v_1 = 2} \\
+  &\phantom{\text{\tiny שורה 1 - שורה 3}} && \phantom{0v_1 - 2v_2 + 2v_3 + 0v_1 = 2} \\
+  &\phantom{\text{\tiny שורה 1 - שורה 4}} && \phantom{0v_1 + 0v_2 + 2v_3 + 2v_4 = -2}
+  \end{aligned}
+  $$
+  </div>
+
+  <div v-click="2" style="position: absolute; inset: 0; background-color:rgb(241, 241, 221); padding: 5px 10px;">
+
+  $$
+  \begin{aligned}
+  &\text{\tiny שורה 1} && 1v_1 + 1v_2 - 1v_3 - 1v_4 = -1 \\
+  &\text{\tiny שורה 1 + שורה 2} && \color{blue}{0v_1 + 2v_2 + 0v_3 - 2v_4 = 1} \\
+  &\text{\tiny שורה 1 - שורה 3} && \color{blue}{0v_1 - 2v_2 + 2v_3 + 0v_1 = 2} \\
+  &\phantom{\text{\tiny שורה 1 - שורה 4}} && \phantom{0v_1 + 0v_2 + 2v_3 + 2v_4 = -2}
+  \end{aligned}
+  $$
+  </div>
+
+  <div v-click="3" style="position: absolute; inset: 0; background-color:rgb(241, 241, 221); padding: 5px 10px;">
+
+  $$
+  \begin{aligned}
+  &\text{\tiny שורה 1} && 1v_1 + 1v_2 - 1v_3 - 1v_4 = -1 \\
+  &\text{\tiny שורה 1 + שורה 2} && \color{blue}{0v_1 + 2v_2 + 0v_3 - 2v_4 = 1} \\
+  &\text{\tiny שורה 1 - שורה 3} && \color{blue}{0v_1 - 2v_2 + 2v_3 + 0v_1 = 2} \\
   &\text{\tiny שורה 1 - שורה 4} && \color{blue}{0v_1 + 0v_2 + 2v_3 + 2v_4 = -2}
   \end{aligned}
   $$
+  </div>
+
   </div>
 </div>
 
