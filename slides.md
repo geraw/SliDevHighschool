@@ -666,6 +666,30 @@ $1$
   $$
   \begin{aligned}
   v_1 + v_2 - v_3 - v_4 &= -1 \\
+  v_2 + v_3 - (v_1 + v_4) &= 2  \\
+  v_1 + v_3 - (v_2 + v_4) &= 1 \\
+  v_1 + v_2 + v_3 + v_4 &= -3
+  \end{aligned}
+  $$
+  </div>
+
+  <div v-click="2" style="position: absolute; inset: 0; background-color:rgb(241, 241, 221); padding: 5px 10px;">
+
+  $$
+  \begin{aligned}
+  v_1 + v_2 - v_3 - v_4 &= -1 \\
+  v_2 + v_3 - v_1 - v_4 &= 2  \\
+  v_1 + v_3 - (v_2 + v_4) &= 1 \\
+  v_1 + v_2 + v_3 + v_4 &= -3
+  \end{aligned}
+  $$
+  </div>
+
+  <div v-click="3" style="position: absolute; inset: 0; background-color:rgb(241, 241, 221); padding: 5px 10px;">
+
+  $$
+  \begin{aligned}
+  v_1 + v_2 - v_3 - v_4 &= -1 \\
   v_2 + v_3 - v_1 - v_4 &= 2  \\
   v_1 + v_3 - v_2 - v_4 &= 1 \\
   v_1 + v_2 + v_3 + v_4 &= -3
@@ -673,7 +697,19 @@ $1$
   $$
   </div>
 
-  <div v-click="2" style="position: absolute; inset: 0; background-color:rgb(241, 241, 221); padding: 5px 10px;">
+  <div v-click="4" style="position: absolute; inset: 0; background-color:rgb(241, 241, 221); padding: 5px 10px;">
+
+  $$
+  \begin{aligned}
+  v_1 + v_2 - v_3 - v_4 &= -1 \\
+  -v_1 + v_2 + v_3 - v_4 &= 2  \\
+  v_1 + v_3 - v_2 - v_4 &= 1 \\
+  v_1 + v_2 + v_3 + v_4 &= -3
+  \end{aligned}
+  $$
+  </div>
+
+  <div v-click="5" style="position: absolute; inset: 0; background-color:rgb(241, 241, 221); padding: 5px 10px;">
 
   $$
   \begin{aligned}
