@@ -756,7 +756,7 @@ $1$
 <div v-motion
   :initial="{ x: -20, opacity: 0 }"
   :enter="{ x: 0, opacity: 1 }"
-  style="position: absolute; left: 350px; top: 320px; transform: translate(-50%, -50%); font-size: 100px;">
+  style="position: absolute; left: 380px; top: 260px; transform: translate(-50%, -50%); font-size: 70px;">
 
   ↳
 </div>
@@ -841,7 +841,7 @@ $1$
 <div v-motion
   :initial="{ x: -20, opacity: 0 }"
   :enter="{ x: 0, opacity: 1 }"
-  style="position: absolute; left: 280px; top: 320px; transform: translate(-50%, -50%); font-size: 100px;">
+  style="position: absolute; left: 280px; top: 260px; transform: translate(-50%, -50%); font-size: 70px;">
 
   ↳
 </div>
@@ -888,7 +888,7 @@ $1$
 <div v-motion
   :initial="{ x: -20, opacity: 0 }"
   :enter="{ x: 0, opacity: 1 }"
-  style="position: absolute; left: 330px; top: 320px; transform: translate(-50%, -50%); font-size: 100px;">
+  style="position: absolute; left: 260px; top: 260px; transform: translate(-50%, -50%); font-size: 70px;">
 
   ↳
 </div>
@@ -910,6 +910,8 @@ $1$
   $$
   </div>
 </div>
+
+<img src="/goal-illustration.png" style="position: absolute; top: 95px; left: 68%; transform: translateX(-50%); width: 220px; border-radius: 12px;">
 
 ---
 
@@ -933,7 +935,7 @@ $1$
 <div v-motion
   :initial="{ x: -20, opacity: 0 }"
   :enter="{ x: 0, opacity: 1 }"
-  style="position: absolute; left: 320px; top: 320px; transform: translate(-50%, -50%); font-size: 100px;">
+  style="position: absolute; left: 320px; top: 260px; transform: translate(-50%, -50%); font-size: 70px;">
 
   ↳
 </div>
@@ -977,7 +979,7 @@ $1$
 <div v-motion
   :initial="{ x: -20, opacity: 0 }"
   :enter="{ x: 0, opacity: 1 }"
-  style="position: absolute; left: 320px; top: 320px; transform: translate(-50%, -50%); font-size: 100px;">
+  style="position: absolute; left: 320px; top: 260px; transform: translate(-50%, -50%); font-size: 70px;">
 
   ↳
 </div>
@@ -1024,7 +1026,7 @@ $1$
 <div v-motion
   :initial="{ x: -20, opacity: 0 }"
   :enter="{ x: 0, opacity: 1 }"
-  style="position: absolute; left: 330px; top: 320px; transform: translate(-50%, -50%); font-size: 100px;">
+  style="position: absolute; left: 330px; top: 260px; transform: translate(-50%, -50%); font-size: 70px;">
 
   ↳
 </div>
