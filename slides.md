@@ -65,12 +65,12 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
   <div style="text-align: right; width: 800px;" class="text-xl leading-relaxed space-y-4">
     <p>מדובר במטס של כ-1,000 רחפנים הטסים בתיאום מושלם, כל נקודת אור היא טיסן הממריא מהקרקע ומבצע תמרון מורכב לאורך המופע.</p>
     <p v-click>כל רחפן הוא רובוט עצמאי שמקבל פקודות מתחנת הקרקע, אנטנה, סוללה, ופנס LED ב-16 מיליון גוונים</p>
-    <p v-click>מחשב הרחפן שולט במהירות ארבעת המנועים ברמה שמאפשרת לתקן בזמן אמת כל נטייה</p>
+    <p v-click>מחשב הרחפן שולט במהירות ארבעת המנועים ברמה שמאפשרת להגיע לכל נקודה בדיוק רב.</p>
   </div>
 
   <div style="position: relative;">
     <video src="/drone-takeoff.mp4" autoplay loop muted playsinline style="display: block; width: 2000px; border-radius: 12px;"></video>
-    <video v-click="1" src="/drone-closeup-hover.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"></video>
+    <video v-click="1" src="/drone-lighting-test.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"></video>
     <video v-click="2" src="/drone-formation.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"></video>
   </div>
 
@@ -87,7 +87,10 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
     <p v-click>כל אחד מהם עובר בדיקה ונטען לפני שהוא יוצא למופע</p>
   </div>
 
-  <video src="/drone-warehouse.mp4" autoplay loop muted playsinline style="width: 2000px; border-radius: 12px;"></video>
+  <div style="position: relative;">
+    <video src="/drone-warehouse.mp4" autoplay loop muted playsinline style="display: block; width: 2000px; border-radius: 12px;"></video>
+    <video v-click="1" src="/drone-battery-connect.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"></video>
+  </div>
 
 </div>
 
@@ -130,7 +133,10 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
     <p v-click>וכעת הרחפן מוכן להצטרף למערך של האלף</p>
   </div>
 
-  <video src="/drone-propeller.mp4" autoplay loop muted playsinline style="width: 2000px; border-radius: 12px;"></video>
+  <div style="position: relative;">
+    <video src="/drone-propeller.mp4" autoplay loop muted playsinline style="display: block; width: 2000px; border-radius: 12px;"></video>
+    <video v-click="1" src="/drone-completed.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"></video>
+  </div>
 
 </div>
 
