@@ -819,56 +819,8 @@ $1$
   </div>
 </div>
 
-<div class="flex items-center justify-center gap-2" style="direction: ltr; position: absolute; top: 100px; left: 68%; transform: translateX(-50%); width: 340px;">
+<img src="/balance-scales-illustration.png" style="position: absolute; top: 95px; left: 68%; transform: translateX(-50%); width: 220px; border-radius: 12px;">
 
-  <svg width="56" height="49" viewBox="0 0 200 175">
-    <line x1="100" y1="165" x2="100" y2="50" stroke="#5b3a29" stroke-width="7" stroke-linecap="round"/>
-    <line x1="65" y1="168" x2="135" y2="168" stroke="#5b3a29" stroke-width="7" stroke-linecap="round"/>
-    <line x1="20" y1="50" x2="180" y2="50" stroke="#5b3a29" stroke-width="5" stroke-linecap="round"/>
-    <circle cx="100" cy="50" r="6" fill="#5b3a29"/>
-    <line x1="20" y1="50" x2="20" y2="78" stroke="#5b3a29" stroke-width="3"/>
-    <line x1="180" y1="50" x2="180" y2="78" stroke="#5b3a29" stroke-width="3"/>
-    <ellipse cx="20" cy="88" rx="22" ry="22" fill="#ffd166" stroke="#5b3a29" stroke-width="3"/>
-    <ellipse cx="180" cy="88" rx="22" ry="22" fill="#ffd166" stroke="#5b3a29" stroke-width="3"/>
-    <text x="20" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#5b3a29">a</text>
-    <text x="180" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#5b3a29">b</text>
-  </svg>
-
-  <div v-click="1" v-motion :initial="{ y: -10, opacity: 0 }" :enter="{ y: 0, opacity: 1 }" style="font-size: 16px; font-weight: bold;">+</div>
-
-  <svg v-click="1" v-motion :initial="{ y: -10, opacity: 0 }" :enter="{ y: 0, opacity: 1 }" width="56" height="49" viewBox="0 0 200 175">
-    <line x1="100" y1="165" x2="100" y2="50" stroke="#5b3a29" stroke-width="7" stroke-linecap="round"/>
-    <line x1="65" y1="168" x2="135" y2="168" stroke="#5b3a29" stroke-width="7" stroke-linecap="round"/>
-    <line x1="20" y1="50" x2="180" y2="50" stroke="#5b3a29" stroke-width="5" stroke-linecap="round"/>
-    <circle cx="100" cy="50" r="6" fill="#5b3a29"/>
-    <line x1="20" y1="50" x2="20" y2="78" stroke="#5b3a29" stroke-width="3"/>
-    <line x1="180" y1="50" x2="180" y2="78" stroke="#5b3a29" stroke-width="3"/>
-    <ellipse cx="20" cy="88" rx="22" ry="22" fill="#06d6a0" stroke="#5b3a29" stroke-width="3"/>
-    <ellipse cx="180" cy="88" rx="22" ry="22" fill="#06d6a0" stroke="#5b3a29" stroke-width="3"/>
-    <text x="20" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#5b3a29">c</text>
-    <text x="180" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#5b3a29">d</text>
-  </svg>
-
-  <div v-click="2" v-motion :initial="{ y: -10, opacity: 0 }" :enter="{ y: 0, opacity: 1 }" style="font-size: 15px; font-weight: bold;">⟹</div>
-
-  <svg v-click="2" v-motion :initial="{ y: -10, opacity: 0 }" :enter="{ y: 0, opacity: 1 }" width="74" height="49" viewBox="-20 0 280 175">
-    <line x1="120" y1="165" x2="120" y2="50" stroke="#5b3a29" stroke-width="7" stroke-linecap="round"/>
-    <line x1="85" y1="168" x2="155" y2="168" stroke="#5b3a29" stroke-width="7" stroke-linecap="round"/>
-    <line x1="20" y1="50" x2="220" y2="50" stroke="#5b3a29" stroke-width="5" stroke-linecap="round"/>
-    <circle cx="120" cy="50" r="6" fill="#5b3a29"/>
-    <line x1="20" y1="50" x2="20" y2="78" stroke="#5b3a29" stroke-width="3"/>
-    <line x1="220" y1="50" x2="220" y2="78" stroke="#5b3a29" stroke-width="3"/>
-    <ellipse cx="20" cy="90" rx="26" ry="26" fill="#ef476f" stroke="#5b3a29" stroke-width="3"/>
-    <ellipse cx="220" cy="90" rx="26" ry="26" fill="#ef476f" stroke="#5b3a29" stroke-width="3"/>
-    <text x="20" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b3a29">a+c</text>
-    <text x="220" y="95" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b3a29">b+d</text>
-  </svg>
-
-</div>
-
-<div v-click="2" style="position: absolute; top: 152px; left: 68%; transform: translateX(-50%); font-size: 11px; direction: rtl; text-align: center; width: 300px;">
-  שתי מאזניים מאוזנות → גם הסכום שלהן מאוזן, ולכן מותר לחבר משוואות!
-</div>
 
 ---
 
@@ -889,7 +841,7 @@ $1$
 <div v-motion
   :initial="{ x: -20, opacity: 0 }"
   :enter="{ x: 0, opacity: 1 }"
-  style="position: absolute; left: 350px; top: 320px; transform: translate(-50%, -50%); font-size: 100px;">
+  style="position: absolute; left: 280px; top: 320px; transform: translate(-50%, -50%); font-size: 100px;">
 
   ↳
 </div>
@@ -911,6 +863,8 @@ $1$
   $$
   </div>
 </div>
+
+<img src="/scale-multiply-illustration.png" style="position: absolute; top: 95px; left: 68%; transform: translateX(-50%); width: 220px; border-radius: 12px;">
 
 --- 
 
