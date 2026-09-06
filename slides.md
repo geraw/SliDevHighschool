@@ -63,13 +63,16 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 <div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
 
   <div style="text-align: right; width: 800px;" class="text-xl leading-relaxed space-y-4">
-    <p>מדובר במטס של כ-1,000 רחפנים הטסים בתיאום מושלם, כל נקודת אור היא טיסן עצמאי</p>
-    <p v-click>מאחורי המופע עומדת חברת UVify, שמתכננת ומייצרת את הרחפנים בעצמה - מלמעלה מ-10,000 רחפנים במלאי, עם שיא גינס של 5,293 רחפנים באוויר בו-זמנית</p>
-    <p v-click>כל רחפן הוא רובוט עצמאי: מחשב שמקבל פקודות מתחנת הקרקע, אנטנה, סוללה, ופנס LED ב-16 מיליון גוונים</p>
-    <p v-click>המחשב שולט במהירות ארבעת המנועים ברמה שמאפשרת לתקן בזמן אמת כל נטייה</p>
+    <p>מדובר במטס של כ-1,000 רחפנים הטסים בתיאום מושלם, כל נקודת אור היא טיסן הממריא מהקרקע ומבצע תמרון מורכב לאורך המופע.</p>
+    <p v-click>כל רחפן הוא רובוט עצמאי שמקבל פקודות מתחנת הקרקע, אנטנה, סוללה, ופנס LED ב-16 מיליון גוונים</p>
+    <p v-click>מחשב הרחפן שולט במהירות ארבעת המנועים ברמה שמאפשרת לתקן בזמן אמת כל נטייה</p>
   </div>
 
-  <video src="/drone-array.mp4" autoplay loop muted playsinline style="width: 2000px; border-radius: 12px;"></video>
+  <div style="position: relative;">
+    <video src="/drone-takeoff.mp4" autoplay loop muted playsinline style="display: block; width: 2000px; border-radius: 12px;"></video>
+    <video v-click="1" src="/drone-closeup-hover.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"></video>
+    <video v-click="2" src="/drone-formation.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"></video>
+  </div>
 
 </div>
 
