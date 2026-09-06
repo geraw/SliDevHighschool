@@ -58,20 +58,18 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 
 ---
 
-# מערך של 10,000 רחפנים
+# מערך של אלף רחפנים
 
 <div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
 
-  <div style="text-align: right; max-width: 480px;" class="text-base leading-snug space-y-3">
-    <p v-click>מדובר במטס של 10,000 רחפנים הטסים בתיאום מושלם</p>
-    <p v-click>כל נקודת אור שאתם רואים היא למעשה טיסן עצמאי, הטס במסלול מתוכנן מראש ומדליק את האורות שלו לאורך המופע</p>
-    <p v-click>בתחילת המופע מסדרים את הרחפנים ברחבה ונותנים להם פקודות להמראה מדורגת כדי שלא יתנגשו</p>
-    <p v-click>כל רחפן הוא רובוט עצמאי המכיל מחשב המקבל פקודות מתחנת הקרקע ושולט בארבעת המדחפים</p>
-    <p v-click>יש לו אנטנה, סוללה, ופנס שניתן להדליק בכל צבע שרוצים או לכבות לגמרי</p>
-    <p v-click>המחשב מודד את נטיית הרחפן בדיוק רב ושולט במהירות המנועים ברמה המאפשרת לתקן בזמן אמת כל נטייה</p>
+  <div style="text-align: right; width: 800px;" class="text-xl leading-relaxed space-y-4">
+    <p>מדובר במטס של כ-1,000 רחפנים הטסים בתיאום מושלם, כל נקודת אור היא טיסן עצמאי</p>
+    <p v-click>מאחורי המופע עומדת חברת UVify, שמתכננת ומייצרת את הרחפנים בעצמה - מלמעלה מ-10,000 רחפנים במלאי, עם שיא גינס של 5,293 רחפנים באוויר בו-זמנית</p>
+    <p v-click>כל רחפן הוא רובוט עצמאי: מחשב שמקבל פקודות מתחנת הקרקע, אנטנה, סוללה, ופנס LED ב-16 מיליון גוונים</p>
+    <p v-click>המחשב שולט במהירות ארבעת המנועים ברמה שמאפשרת לתקן בזמן אמת כל נטייה</p>
   </div>
 
-  <video src="/drone-array.mp4" autoplay loop muted playsinline style="width: 420px; border-radius: 12px;"></video>
+  <video src="/drone-array.mp4" autoplay loop muted playsinline style="width: 2000px; border-radius: 12px;"></video>
 
 </div>
 
@@ -82,7 +80,7 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 <div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
 
   <div style="text-align: right; width: 800px;" class="text-xl leading-relaxed space-y-4">
-    <p>כדי לטוס עם 10,000 רחפנים, קודם צריך לייצר ולהרכיב 10,000 רחפנים</p>
+    <p>כדי לטוס עם 1,000 רחפנים, קודם צריך לייצר ולהרכיב 1,000 רחפנים בחדר התיקון וההרכבה</p>
     <p v-click>כל אחד מהם עובר בדיקה ונטען לפני שהוא יוצא למופע</p>
   </div>
 
@@ -97,7 +95,7 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 <div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
 
   <div style="text-align: right; width: 800px;" class="text-xl leading-relaxed space-y-4">
-    <p>בעמדת עבודה, מרכיבים ידנית את הזרועות, המנועים והלוח האלקטרוני של כל רחפן</p>
+    <p>בעמדת עבודה, מרכיבים ידנית את הזרועות, המנועים, מודול התאורה ומודול התקשורת של כל רחפן</p>
   </div>
 
   <video src="/drone-workbench.mp4" autoplay loop muted playsinline style="width: 2000px; border-radius: 12px;"></video>
@@ -111,7 +109,7 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 <div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
 
   <div style="text-align: right; width: 800px;" class="text-xl leading-relaxed space-y-4">
-    <p>מרכיבים ומברגים את המעטפת החיצונית מעל הלוח האלקטרוני, כדי להגן עליו</p>
+    <p>מרכיבים ומברגים מכסה מגן מעל הרכיבים, כדי להגן עליהם</p>
   </div>
 
   <video src="/drone-shell.mp4" autoplay loop muted playsinline style="width: 2000px; border-radius: 12px;"></video>
@@ -125,8 +123,8 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 <div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
 
   <div style="text-align: right; width: 800px;" class="text-xl leading-relaxed space-y-4">
-    <p>מתקינים את ארבעת המדחפים על המנועים</p>
-    <p v-click>וכעת הרחפן מוכן להצטרף למערך של ה-10,000</p>
+    <p>מתקינים את ארבעת המדחפים - המנועים החזקים האלה מסוגלים להעלות את הרחפן במהירות של עד 8 מטר לשנייה</p>
+    <p v-click>וכעת הרחפן מוכן להצטרף למערך של האלף</p>
   </div>
 
   <video src="/drone-propeller.mp4" autoplay loop muted playsinline style="width: 2000px; border-radius: 12px;"></video>
