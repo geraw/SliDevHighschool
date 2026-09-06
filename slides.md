@@ -140,12 +140,15 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 
 <div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
 
-  <div style="text-align: right; max-width: 380px;" class="text-xl leading-relaxed space-y-4">
+  <div style="text-align: right; width: 800px;" class="text-xl leading-relaxed space-y-4">
     <p>זהו המחשב שבתוך כל רחפן</p>
     <p v-click>שני המחברים הזהובים הם לאנטנה, שמקבלת פקודות מתחנת הקרקע</p>
   </div>
 
-  <video src="/drone-pcb.mp4" autoplay loop muted playsinline style="width: 480px; border-radius: 12px;"></video>
+  <div style="position: relative;">
+    <video src="/drone-pcb.mp4" autoplay loop muted playsinline style="display: block; width: 2000px; border-radius: 12px;"></video>
+    <video v-click="1" src="/drone-comm-module.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"></video>
+  </div>
 
 </div>
 
@@ -155,13 +158,17 @@ image: https://hips.hearstapps.com/pop.h-cdn.co/assets/16/17/980x556/gallery-146
 
 <div class="flex items-center justify-center gap-8" style="direction: rtl; position: absolute; top: 58%; left: 50%; transform: translate(-50%, -50%);">
 
-  <div style="text-align: right; max-width: 380px;" class="text-xl leading-relaxed space-y-4">
+  <div style="text-align: right; width: 800px;" class="text-xl leading-relaxed space-y-4">
     <p>מבט מלמעלה על רחפן מורכב: המחשב והאנטנה במרכז</p>
     <p v-click>ארבע זרועות עם מנוע ומדחף בקצה כל אחת</p>
     <p v-click>ולמטה, המחבר הצהוב לסוללה</p>
   </div>
 
-  <video src="/drone-anatomy.mp4" autoplay loop muted playsinline style="width: 480px; border-radius: 12px;"></video>
+  <div style="position: relative;">
+    <video src="/drone-anatomy.mp4" autoplay loop muted playsinline style="display: block; width: 2000px; border-radius: 12px;"></video>
+    <video v-click="1" src="/drone-propeller.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"></video>
+    <video v-click="2" src="/drone-battery-connector.mp4" autoplay loop muted playsinline style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: 12px;"></video>
+  </div>
 
 </div>
 
